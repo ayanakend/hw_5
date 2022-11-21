@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginf"
+    android:scaleType="centerCrop"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Login"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="255dp"
+        android:elegantTextHeight="true"
+        android:textSize="30sp"
+        android:textScaleX="1.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="350dp"
+        android:text=" hello@davidhuge.com"
+        android:textColor="#E2757575"
+        android:layout_marginStart="76dp"
+        android:textSize="18sp"
+        android:textScaleX="1.1"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginEnd="25dp"
+        tools:layout_editor_absoluteY="364dp"
+        android:text="_______________________________________________________"
+        android:textColor="#E2757575"
+        android:layout_marginStart="25dp"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="415dp"
+        android:text=" * * * * * * * *"
+        android:textColor="#E2757575"
+        android:layout_marginStart="76dp"
+        android:textSize="18sp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginEnd="25dp"
+        tools:layout_editor_absoluteY="429dp"
+        android:text="_______________________________________________________"
+        android:textColor="#E2757575"
+        android:layout_marginStart="25dp"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/img_2"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="345dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/img_4"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="412dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="176dp"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textAllCaps="true"
+        android:background="@drawable/custom_btn"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="140dp"
+        android:text="Don't have an account? "
+        android:textColor="#E2757575"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.371"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="140dp"
+        android:text="     Register"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.677"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
